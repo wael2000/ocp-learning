@@ -1,0 +1,1 @@
+podman build -t my-better-httpd better/.

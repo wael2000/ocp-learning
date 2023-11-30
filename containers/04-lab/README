@@ -1,0 +1,17 @@
+# You will practice the following 
+learn how to enable containers to communicate with the outside world by exposing and mapping ports.
+### how run your first web server (httpd) container
+### how run your first web server (httpd) container in a detached mode
+- Run httpd container
+```bash
+./01-run-httpd-container.sh
+```
+- Run httpd container in background and print container ID
+```bash
+./02-run-httpd-container-d.sh
+```
+- Find the my-httpd container and start it again (how does it run this time?)
+This is a homework!
+
+- run two https server listening on two different ports 8080 and 8090
+This is a homework!

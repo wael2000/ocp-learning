@@ -1,0 +1,18 @@
+# You will practice the following 
+passing environment parameters to you containers.
+- Run ubi-minimal:latest container and pass tow env varibales GREET TARGET
+```bash
+./01-run-container-env.sh
+```
+- Time to run youyr DB engine, run postresql with following env vars -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=spassword -e POSTGRES_DB=demo 
+```bash
+./02-run-db-container.sh
+```
+- Connect to the running db container using same env vars and create 'container' table in demo db
+```bash
+./03-connect-to-db.sh
+```
+- Connect to the running db container ans select rows from 'container' table and then stop the db container and prune it
+```bash
+./04-validate-and-clean.sh
+```

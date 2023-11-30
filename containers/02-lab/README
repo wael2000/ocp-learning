@@ -1,0 +1,24 @@
+# You will practice the following 
+## how run container image with command
+## how to commit the image along with the command to a new image
+## how to run the commited image and see the command being executed
+- run ubi8/ubi-minimal:latest with echo "Hello World" command [ container name is hello-world ]
+```bash
+./01-run-container.sh
+```
+- List all the images to see ubi8/ubi-minimal:latest image
+```bash
+./02-list-images.sh
+```
+- Commit the "hello-world" container to a new image "hello-image"
+```bash
+./03-commit-image.sh
+```
+- List all images to see the newly created image "hello-image"
+```bash
+./04-list-images.sh
+```
+- run container with "hello-image" image
+```bash
+./05-run-committed-image.sh
+```

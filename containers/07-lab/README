@@ -1,0 +1,10 @@
+# You will practice the following 
+running pods with multiple containers
+- start a new pod
+```bash
+./01-create-pod.sh
+```
+- run two container (postgres, and pgadmin4)
+```bash
+./02-run-containers-in-pod.sh
+```

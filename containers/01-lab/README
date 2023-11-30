@@ -1,0 +1,22 @@
+# You will practice the following 
+- run your first container 
+```bash
+./01-run-container.sh
+```
+- list all containers [running and stopped ones]
+```bash
+./02-process-list.sh
+```
+Find the container ID, make sure you pass it in the next step!
+- start already stopped container [using container ID]
+```bash
+./03-start-container.sh <CONTAINER_ID>
+```
+- delete all stopped container [while container images still exist]
+```bash
+./04-prune-container.sh
+```
+- list imagee in your local registry
+```bash
+./05-list-images.sh
+```

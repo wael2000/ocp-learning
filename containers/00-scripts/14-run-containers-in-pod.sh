@@ -1,0 +1,2 @@
+podman run -d --pod=learn-sql -e POSTGRES_PASSWORD=P@ssw0rd -e POSTGRES_USER=admin --name db postgres
+podman run -d --pod=learn-sql -e 'PGADMIN_DEFAULT_EMAIL=admin@demo.com' -e 'PGADMIN_DEFAULT_PASSWORD=P@ssw0rd' --name pgadmin12 dpage/pgadmin4

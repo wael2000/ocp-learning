@@ -1,0 +1,17 @@
+# You will practice the following 
+Note: Create a new Podman default VM with volume mount, you need to delete the default machine, HOW!?
+- prepare a loca path on your desktop and map it to /data folder on the podman VM [-v LOCAL_MACHINE_PATH:/data]
+```bash
+./01-start-new-machine.sh
+```
+- run httpd container with default www folder that has index.html with ```<html><body><h1>It works!</h1></body></html>``` message 
+```bash
+./02-start-httpd.sh
+```
+- run another httpd container by mounting www folder to /usr/local/apache2/htdocs on the container path
+```bash
+./03-start-httpd-with-volume.sh
+```
+The out put is different 
+```<h1> my custom content </h1>```
+```<h2> Hello World! </h2>```

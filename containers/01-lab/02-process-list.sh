@@ -1,0 +1,1 @@
+podman ps -a --format "{{.ID}}  {{.Image}}  {{.Status}}" | grep ubi-minimal

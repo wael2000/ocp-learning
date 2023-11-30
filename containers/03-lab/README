@@ -1,0 +1,18 @@
+# You will practice the following 
+## how to build containe images
+## how to explore image layers
+## how to optimize container image size
+- build a container image using Dockerfile
+```bash
+./01-build-image.sh
+```
+- build the same image using different Dockerfile [under better/Dockerfile]
+```bash
+./02-build-better-image.sh
+```
+- Compare image size and image layer for each image
+```bash
+./03-compare-layers.sh
+```
+- Extra : use dive to navigate through content of each layer [Added, Removed, Updaed content]
+This is a homework!
