@@ -1,0 +1,290 @@
+[
+     {
+          "Id": "0ee0d2b68c036b5c643e73ee3c75e0ba855259f54819f001a0f9811761133952",
+          "Created": "2023-11-30T14:53:10.081286789+01:00",
+          "Path": "/entrypoint.sh",
+          "Args": [
+               "/entrypoint.sh"
+          ],
+          "State": {
+               "OciVersion": "1.1.0+dev",
+               "Status": "running",
+               "Running": true,
+               "Paused": false,
+               "Restarting": false,
+               "OOMKilled": false,
+               "Dead": false,
+               "Pid": 8518,
+               "ConmonPid": 8516,
+               "ExitCode": 0,
+               "Error": "",
+               "StartedAt": "2023-12-01T15:56:43.774155172+01:00",
+               "FinishedAt": "0001-01-01T00:00:00Z",
+               "Health": {
+                    "Status": "",
+                    "FailingStreak": 0,
+                    "Log": null
+               },
+               "CgroupPath": "/user.slice/user-502.slice/user@502.service/user.slice/user-libpod_pod_de8f728b78ae4e3852d2d66bef69b0c66039c24c91b40ce2a3b28e477b03c16d.slice/libpod-0ee0d2b68c036b5c643e73ee3c75e0ba855259f54819f001a0f9811761133952.scope",
+               "CheckpointedAt": "0001-01-01T00:00:00Z",
+               "RestoredAt": "0001-01-01T00:00:00Z"
+          },
+          "Image": "da73a5b9ac16dddbf6b089c678cb9d9fc12c135cb238b4021ab80b81369a523b",
+          "ImageDigest": "sha256:2f162ef35d3afca1396c4222a0403eb861b9800039bcf368074fd19ff02b8cd8",
+          "ImageName": "docker.io/dpage/pgadmin4:latest",
+          "Rootfs": "",
+          "Pod": "de8f728b78ae4e3852d2d66bef69b0c66039c24c91b40ce2a3b28e477b03c16d",
+          "ResolvConfPath": "/run/user/502/containers/overlay-containers/fc29457d6f06e0e6f94b6b1e832b4e5f077f654f3aecc501bf6952bb24acf960/userdata/resolv.conf",
+          "HostnamePath": "/run/user/502/containers/overlay-containers/0ee0d2b68c036b5c643e73ee3c75e0ba855259f54819f001a0f9811761133952/userdata/hostname",
+          "HostsPath": "/run/user/502/containers/overlay-containers/fc29457d6f06e0e6f94b6b1e832b4e5f077f654f3aecc501bf6952bb24acf960/userdata/hosts",
+          "StaticDir": "/var/home/core/.local/share/containers/storage/overlay-containers/0ee0d2b68c036b5c643e73ee3c75e0ba855259f54819f001a0f9811761133952/userdata",
+          "OCIConfigPath": "/var/home/core/.local/share/containers/storage/overlay-containers/0ee0d2b68c036b5c643e73ee3c75e0ba855259f54819f001a0f9811761133952/userdata/config.json",
+          "OCIRuntime": "crun",
+          "ConmonPidFile": "/run/user/502/containers/overlay-containers/0ee0d2b68c036b5c643e73ee3c75e0ba855259f54819f001a0f9811761133952/userdata/conmon.pid",
+          "PidFile": "/run/user/502/containers/overlay-containers/0ee0d2b68c036b5c643e73ee3c75e0ba855259f54819f001a0f9811761133952/userdata/pidfile",
+          "Name": "pgadmin12",
+          "RestartCount": 0,
+          "Driver": "overlay",
+          "MountLabel": "system_u:object_r:container_file_t:s0:c389,c829",
+          "ProcessLabel": "system_u:system_r:container_t:s0:c389,c829",
+          "AppArmorProfile": "",
+          "EffectiveCaps": null,
+          "BoundingCaps": [
+               "CAP_CHOWN",
+               "CAP_DAC_OVERRIDE",
+               "CAP_FOWNER",
+               "CAP_FSETID",
+               "CAP_KILL",
+               "CAP_NET_BIND_SERVICE",
+               "CAP_SETFCAP",
+               "CAP_SETGID",
+               "CAP_SETPCAP",
+               "CAP_SETUID",
+               "CAP_SYS_CHROOT"
+          ],
+          "ExecIDs": [],
+          "GraphDriver": {
+               "Name": "overlay",
+               "Data": {
+                    "LowerDir": "/var/home/core/.local/share/containers/storage/overlay/6233e6a349d1c1a0e3214703239ae52a9bc0efd5030e29bc2513c19cb22eca64/diff:/var/home/core/.local/share/containers/storage/overlay/ad38443fa8a24020dc503e9bfb14b9f204a39c939f32acdfddf3220774efd934/diff:/var/home/core/.local/share/containers/storage/overlay/57585d7cc26104885d3a61fe184bb93ae40542dc07e37d835a0242bc3d18180c/diff:/var/home/core/.local/share/containers/storage/overlay/0f2b480c36831a4c1b57dfab53a0594254c1d194e81348d47f3dde37ad1f5cd3/diff:/var/home/core/.local/share/containers/storage/overlay/415fc723359c2f8bf06d23ecf20ffe97cdcf0f2278a53ce33acca3c2647f31d1/diff:/var/home/core/.local/share/containers/storage/overlay/2b1bb7b6019c5b7f3214470a792d19b5034ad4ee825bc60002021ae0068abf75/diff:/var/home/core/.local/share/containers/storage/overlay/08607494e079cd6b2fcf109ec78c169db5774f8eb48ad7718a306ba0c172851a/diff:/var/home/core/.local/share/containers/storage/overlay/d031e34d637f52b63ece99a09ee421381c1084b4a8c2ecade23e36f3b7e23f8f/diff:/var/home/core/.local/share/containers/storage/overlay/5a1a7d8737ff758fe7f630f2f72ecf5b10069313946a624578d7ff93a9cbcea1/diff:/var/home/core/.local/share/containers/storage/overlay/669fc3b7bdb4b0879113cce9a75b3b83bc658e267672ccc11aeaf151f507c248/diff:/var/home/core/.local/share/containers/storage/overlay/c4af6c6a41925315404c076f9904ba7dad7e595bec9d6f97ed278408bad9f0a6/diff:/var/home/core/.local/share/containers/storage/overlay/9171f7ecdf559d851dc50bcd021e68c176791ec13a6a8951f0fe9a9c68b3a5dd/diff:/var/home/core/.local/share/containers/storage/overlay/c03264f6b57bb37abb980ce1d8241fe80c29533d9f8fe1884d68c7b3cf3f4052/diff:/var/home/core/.local/share/containers/storage/overlay/9d27ac8ef609e145fe9086fd8037c3d1c095477a7f57b65bd5d8748939ef50a9/diff:/var/home/core/.local/share/containers/storage/overlay/c870e8ac3e9716822970258f509d46cb73aaf4a4a0c80619861b861ab3b42eab/diff:/var/home/core/.local/share/containers/storage/overlay/cc2447e1835a40530975ab80bb1f872fbab0f2a0faecf2ab16fbbb89b3589438/diff",
+                    "MergedDir": "/var/home/core/.local/share/containers/storage/overlay/55660990087ef1f89e8fb8d2897a8df3663ca29689fd0b64e82752493dccf6eb/merged",
+                    "UpperDir": "/var/home/core/.local/share/containers/storage/overlay/55660990087ef1f89e8fb8d2897a8df3663ca29689fd0b64e82752493dccf6eb/diff",
+                    "WorkDir": "/var/home/core/.local/share/containers/storage/overlay/55660990087ef1f89e8fb8d2897a8df3663ca29689fd0b64e82752493dccf6eb/work"
+               }
+          },
+          "Mounts": [
+               {
+                    "Type": "volume",
+                    "Name": "cd659b26ba51e342b1c32b588f3d3b9379cfa9fb77ef962f559b1004117cccf3",
+                    "Source": "/var/home/core/.local/share/containers/storage/volumes/cd659b26ba51e342b1c32b588f3d3b9379cfa9fb77ef962f559b1004117cccf3/_data",
+                    "Destination": "/var/lib/pgadmin",
+                    "Driver": "local",
+                    "Mode": "",
+                    "Options": [
+                         "nodev",
+                         "exec",
+                         "nosuid",
+                         "rbind"
+                    ],
+                    "RW": true,
+                    "Propagation": "rprivate"
+               }
+          ],
+          "Dependencies": [
+               "fc29457d6f06e0e6f94b6b1e832b4e5f077f654f3aecc501bf6952bb24acf960"
+          ],
+          "NetworkSettings": {
+               "EndpointID": "",
+               "Gateway": "10.88.0.1",
+               "IPAddress": "10.88.0.8",
+               "IPPrefixLen": 16,
+               "IPv6Gateway": "",
+               "GlobalIPv6Address": "",
+               "GlobalIPv6PrefixLen": 0,
+               "MacAddress": "1a:13:5c:e1:5b:7c",
+               "Bridge": "",
+               "SandboxID": "",
+               "HairpinMode": false,
+               "LinkLocalIPv6Address": "",
+               "LinkLocalIPv6PrefixLen": 0,
+               "Ports": {
+                    "80/tcp": [
+                         {
+                              "HostIp": "",
+                              "HostPort": "9876"
+                         }
+                    ]
+               },
+               "SandboxKey": "/run/user/502/netns/netns-6399e892-29a9-360d-24ca-e61f26b40f89",
+               "Networks": {
+                    "podman": {
+                         "EndpointID": "",
+                         "Gateway": "10.88.0.1",
+                         "IPAddress": "10.88.0.8",
+                         "IPPrefixLen": 16,
+                         "IPv6Gateway": "",
+                         "GlobalIPv6Address": "",
+                         "GlobalIPv6PrefixLen": 0,
+                         "MacAddress": "1a:13:5c:e1:5b:7c",
+                         "NetworkID": "podman",
+                         "DriverOpts": null,
+                         "IPAMConfig": null,
+                         "Links": null,
+                         "Aliases": [
+                              "fc29457d6f06",
+                              "learn-sql"
+                         ]
+                    }
+               }
+          },
+          "Namespace": "",
+          "IsInfra": false,
+          "IsService": false,
+          "KubeExitCodePropagation": "invalid",
+          "lockNumber": 5,
+          "Config": {
+               "Hostname": "learn-sql",
+               "Domainname": "",
+               "User": "pgadmin",
+               "AttachStdin": false,
+               "AttachStdout": false,
+               "AttachStderr": false,
+               "Tty": false,
+               "OpenStdin": false,
+               "StdinOnce": false,
+               "Env": [
+                    "container=podman",
+                    "PYTHONPATH=/pgadmin4",
+                    "PGADMIN_DEFAULT_EMAIL=admin@demo.com",
+                    "PGADMIN_DEFAULT_PASSWORD=P@ssw0rd",
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                    "HOME=/home/pgadmin",
+                    "HOSTNAME=learn-sql"
+               ],
+               "Cmd": null,
+               "Image": "docker.io/dpage/pgadmin4:latest",
+               "Volumes": null,
+               "WorkingDir": "/pgadmin4",
+               "Entrypoint": "/entrypoint.sh",
+               "OnBuild": null,
+               "Labels": null,
+               "Annotations": {
+                    "io.container.manager": "libpod",
+                    "io.kubernetes.cri-o.SandboxID": "fc29457d6f06e0e6f94b6b1e832b4e5f077f654f3aecc501bf6952bb24acf960",
+                    "org.opencontainers.image.stopSignal": "15"
+               },
+               "StopSignal": 15,
+               "HealthcheckOnFailureAction": "none",
+               "CreateCommand": [
+                    "podman",
+                    "run",
+                    "-d",
+                    "--pod=learn-sql",
+                    "-e",
+                    "PGADMIN_DEFAULT_EMAIL=admin@demo.com",
+                    "-e",
+                    "PGADMIN_DEFAULT_PASSWORD=P@ssw0rd",
+                    "--name",
+                    "pgadmin12",
+                    "dpage/pgadmin4"
+               ],
+               "Umask": "0022",
+               "Timeout": 0,
+               "StopTimeout": 10,
+               "Passwd": true,
+               "sdNotifyMode": "container"
+          },
+          "HostConfig": {
+               "Binds": [
+                    "cd659b26ba51e342b1c32b588f3d3b9379cfa9fb77ef962f559b1004117cccf3:/var/lib/pgadmin:rprivate,rw,nodev,exec,nosuid,rbind"
+               ],
+               "CgroupManager": "systemd",
+               "CgroupMode": "private",
+               "ContainerIDFile": "",
+               "LogConfig": {
+                    "Type": "journald",
+                    "Config": null,
+                    "Path": "",
+                    "Tag": "",
+                    "Size": "0B"
+               },
+               "NetworkMode": "container:fc29457d6f06e0e6f94b6b1e832b4e5f077f654f3aecc501bf6952bb24acf960",
+               "PortBindings": {},
+               "RestartPolicy": {
+                    "Name": "",
+                    "MaximumRetryCount": 0
+               },
+               "AutoRemove": false,
+               "VolumeDriver": "",
+               "VolumesFrom": null,
+               "CapAdd": [],
+               "CapDrop": [],
+               "Dns": [],
+               "DnsOptions": [],
+               "DnsSearch": [],
+               "ExtraHosts": [],
+               "GroupAdd": [],
+               "IpcMode": "container:fc29457d6f06e0e6f94b6b1e832b4e5f077f654f3aecc501bf6952bb24acf960",
+               "Cgroup": "",
+               "Cgroups": "default",
+               "Links": null,
+               "OomScoreAdj": 0,
+               "PidMode": "private",
+               "Privileged": false,
+               "PublishAllPorts": false,
+               "ReadonlyRootfs": false,
+               "SecurityOpt": [],
+               "Tmpfs": {},
+               "UTSMode": "container:fc29457d6f06e0e6f94b6b1e832b4e5f077f654f3aecc501bf6952bb24acf960",
+               "UsernsMode": "",
+               "ShmSize": 65536000,
+               "Runtime": "oci",
+               "ConsoleSize": [
+                    0,
+                    0
+               ],
+               "Isolation": "",
+               "CpuShares": 0,
+               "Memory": 0,
+               "NanoCpus": 0,
+               "CgroupParent": "user.slice/user-502.slice/user@502.service/user.slice/user-libpod_pod_de8f728b78ae4e3852d2d66bef69b0c66039c24c91b40ce2a3b28e477b03c16d.slice",
+               "BlkioWeight": 0,
+               "BlkioWeightDevice": null,
+               "BlkioDeviceReadBps": null,
+               "BlkioDeviceWriteBps": null,
+               "BlkioDeviceReadIOps": null,
+               "BlkioDeviceWriteIOps": null,
+               "CpuPeriod": 0,
+               "CpuQuota": 0,
+               "CpuRealtimePeriod": 0,
+               "CpuRealtimeRuntime": 0,
+               "CpusetCpus": "",
+               "CpusetMems": "",
+               "Devices": [],
+               "DiskQuota": 0,
+               "KernelMemory": 0,
+               "MemoryReservation": 0,
+               "MemorySwap": 0,
+               "MemorySwappiness": 0,
+               "OomKillDisable": false,
+               "PidsLimit": 2048,
+               "Ulimits": [
+                    {
+                         "Name": "RLIMIT_NOFILE",
+                         "Soft": 524288,
+                         "Hard": 524288
+                    },
+                    {
+                         "Name": "RLIMIT_NPROC",
+                         "Soft": 7449,
+                         "Hard": 7449
+                    }
+               ],
+               "CpuCount": 0,
+               "CpuPercent": 0,
+               "IOMaximumIOps": 0,
+               "IOMaximumBandwidth": 0,
+               "CgroupConf": null
+          }
+     }
+]

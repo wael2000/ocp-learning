@@ -1,0 +1,1 @@
+podman container inspect $1 | jq '.[].NetworkSettings.IPAddress'
